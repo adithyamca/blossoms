@@ -1,0 +1,36 @@
+<html>
+<head><title>Pallindrome</title>
+</head>
+<body>
+<script>
+var num=parseInt(prompt("enter the number:"));
+var temp=num;
+var ld
+var rev=sum=0;
+while(num>0)
+{
+l=num%10;
+rev=rev*10+l;
+num=Math.floor(num/10);
+}
+if(temp==rev)
+{
+document.write("<br>the number is pallindrome");
+}
+else
+{
+document.write("<br>the number is not pallindrome");
+}
+document.write("<br>reverse of a given number: "+rev);
+
+while(temp>0)
+{
+ld=temp%10
+sum=sum+ld
+temp=Math.floor(temp/10)
+
+}
+document.write("<br>Digit sum: "+sum);
+</script>
+</body>
+</html>
