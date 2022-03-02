@@ -1,0 +1,6 @@
+f=open("adithya1.txt","r")
+s=f.read()
+print(s)
+f=open("adithya.txt","w")
+f.write(s)
+f.close()
