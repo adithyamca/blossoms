@@ -1,0 +1,22 @@
+<html>
+  <head>
+
+  </head>
+<body>
+
+    <img src="rose.jpg" id="myImg" >
+    <input type="button" onclick="changeImg()" value="click" />
+    <script>
+        function changeImg() {
+            var image = document.getElementById('myImg');
+            if (image.src.match("rose.jpg")) {
+                image.src = "lotus.jpg";
+            }
+            else {
+                image.src = "rose.jpg";
+            }
+        }
+    </script>
+
+</body>
+</html>
